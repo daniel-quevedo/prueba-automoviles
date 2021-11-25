@@ -54,11 +54,11 @@
                         <div class="col-6">
                             <div class="my-2">
                                 <label for="" class="form-label">Nombres</label>
-                                <input type="text" class="form-control" id="nombre" name="nombre" pattern="[a-zA-Z ]{2,50}" required>
+                                <input type="text" class="form-control" id="nombre" name="nombre" pattern="[a-zA-ZñÑ ]{3,50}" required>
                             </div>
                             <div class="my-2">
                                 <label for="" class="form-label">Apellidos</label>
-                                <input type="text" class="form-control" id="apellido" name="apellido" pattern="[a-zA-Z ]{2,50}" required>
+                                <input type="text" class="form-control" id="apellido" name="apellido" pattern="[a-zA-ZÑñ ]{3,50}" required>
                             </div>
                             <div class="my-2">
                                 <label for="" class="form-label">Cédula</label>
@@ -88,7 +88,7 @@
                         </div>
                         <div class="my-2">
                             <label for="" class="form-label">Correo Electrónico</label>
-                            <input type="text" class="form-control" id="correo" name="correo" required>
+                            <input type="email" class="form-control" id="correo" name="correo" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
                         </div>
                         <div class="my-2">
                             <div class="form-check">
